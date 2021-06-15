@@ -1,0 +1,20 @@
+{
+  "name": "ts-project-references",
+  "version": "1.0.0",
+  "description": "Coffee Shop example",
+  "main": "lib/coffee-shop/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -b -v src",
+    "clean": "tsc -b --clean src",
+    "start": "node lib/coffee-shop/index.js"
+  },
+  "keywords": [
+    "project references", "typescript", "tsconfig", "coffee", "coffee-shop", "demo"
+  ],
+  "author": "Divyanshu Maurya <divyanshu1610@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.3.2"
+  }
+}
