@@ -1,0 +1,15 @@
+{
+  "extends": "../tsconfig-base.json",
+  "compilerOptions": {
+    "outDir": "../../lib/coffee-shop",
+    "tsBuildInfoFile": "../../.ts/coffee-shop.tsbuildinfo"
+  },
+  "references": [
+    {
+      "path": "../common"
+    },
+    {
+      "path": "../coffee"
+    }
+  ]
+}

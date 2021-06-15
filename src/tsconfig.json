@@ -1,0 +1,15 @@
+{
+    "files": [],
+    "include": [],
+    "references": [
+      {
+        "path": "./coffee"
+      },
+      {
+        "path": "./coffee-shop"
+      },
+      {
+        "path": "./common"
+      }
+    ]
+  }

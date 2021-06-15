@@ -25,7 +25,7 @@ export default class Coffee {
     return `Here's a ${this.type} ☕ ${ this.name ?  'for '+this.name : ''}`
   }
 
-  static brewRandomCoffee(name: string | null = null) {
+  static brewRandomCoffee(name?: string) {
     const randomNum = randomGen(Coffee.coffees.length)
     const coffee = new Coffee(Coffee.coffees[randomNum], name);
     return coffee.brew();
